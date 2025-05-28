@@ -11,6 +11,6 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
   },
-  "include": ["src/apiHelper/clients", "src/tests", "src/apiHelper/utils", "src/apiHelper/models", "src/apiHelper/setupClient.ts"],
+  "include": ["src/apiHelper/clients/**/*.ts", "src/tests/**/*.ts", "src/apiHelper/utils/**/*.ts", "src/apiHelper/models/**/*.ts", "src/apiHelper/setupClient.ts"],
   "exclude": ["dist", "node_modules"]
 }

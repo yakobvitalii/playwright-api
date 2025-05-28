@@ -15,5 +15,5 @@ export default defineConfig({
   workers: process.env.CI ? 1 : 1,
   fullyParallel: true,
   testDir: './src/tests',
-  reporter: [['list'], ['html', { open: 'never' }]],
+  reporter: [['dot'], ['github']],
 });
